@@ -1,0 +1,6 @@
+install.packages(c("ggplot2", "dplyr", "lubridate"))
+library(ggplot2)
+library(dplyr)
+library(lubridate)
+library(tidyverse)
+records <- read.csv("records.csv")

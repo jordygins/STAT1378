@@ -14,11 +14,3 @@ praise <- function(name, punctuation = "!"){
   glue::glue("You're the best, {name}{punctuation}")
 }
 praise("Jordyn")
-
-usethis::use_mit_license("Jordyn")
-??praise
-
-usethis::use_package("glue")
-usethis::use_testthat()
-usethis::use_test("praise")
-
